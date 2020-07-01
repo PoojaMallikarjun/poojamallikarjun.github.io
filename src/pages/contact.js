@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 
 const contact = () => {
+  const id = `https://formspree.io/${process.env.MY_ID}`
   return (
     <Layout>
       <section className="contact-page">
@@ -11,7 +12,7 @@ const contact = () => {
             If you wanna get in touch, talk to me about a project collaboration
             or just say hi, fill up the awesome form below
           </h4>
-          <form action="https://formspree.io/maypdzna" method="POST">
+          <form action={id} method="POST">
             <div className="form-group">
               <input
                 type="text"
