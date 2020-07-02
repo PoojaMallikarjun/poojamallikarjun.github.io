@@ -10,23 +10,22 @@ const data = [
   {
     id: 1,
     icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
-    url: "https://www.twitter.com",
+    url: "https://github.com/PoojaMallikarjun",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/pooja-m-112165171/",
   },
   {
     id: 3,
     icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    url: "https://www.twitter.com",
+    url: "https://dribbble.com/pooja_m",
   },
-
   {
     id: 4,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    url: "https://twitter.com/pooja_m702",
   },
 ]
 const links = data.map(link => {

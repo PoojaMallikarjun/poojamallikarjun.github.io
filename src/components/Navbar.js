@@ -1,5 +1,5 @@
 import React from "react"
-import { FaAlignRight } from "react-icons/fa"
+import { GrList } from "react-icons/gr"
 import PageLinks from "../constants/links"
 
 const Navbar = ({ toggleSidebar }) => {
@@ -9,7 +9,7 @@ const Navbar = ({ toggleSidebar }) => {
         <div className="nav-header">
           {/* <h1>Pooja Mallikarjun</h1> */}
           <button type="button" className="toggle-btn" onClick={toggleSidebar}>
-            <FaAlignRight></FaAlignRight>
+            <GrList></GrList>
           </button>
         </div>
         <PageLinks styleClass="nav-links"></PageLinks>
