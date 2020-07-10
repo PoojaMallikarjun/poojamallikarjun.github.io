@@ -1,1 +1,1 @@
-#A Portfolio website built using ReactJs and GatsbyJs.#
+A Portfolio website built using ReactJs and GatsbyJs.
