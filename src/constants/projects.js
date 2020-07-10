@@ -22,8 +22,16 @@ const data = [
     title: "InfoCorona",
     description:
       "A website that gives the stats of Covid-19 cases in india and from around the world along with various precautionary measures.",
-    stack: ["ReactJs", "nodeJs"],
+    stack: ["ReactJs", "NodeJs"],
     link: "https://github.com/PoojaMallikarjun/InfoCorona-1",
+  },
+  {
+    id: 4,
+    title: "News App",
+    description:
+      "A ReactJs application that can be used for obtaining news from around the country based on various categories such as business, education, health and tge top headlines. It makes use of News API.",
+    stack: ["ReactJs", "NodeJs"],
+    link: "https://github.com/PoojaMallikarjun/News-App",
   },
 ]
 
