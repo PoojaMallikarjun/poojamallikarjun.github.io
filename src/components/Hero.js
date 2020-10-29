@@ -10,7 +10,7 @@ const Hero = () => {
           <div>
             <div className="underline">
               <h1>Hi! I'm Pooja</h1>
-              <h4>I'm an enthusiastic Front-end Developer</h4>
+              <h4>I'm an enthusiastic Web Developer</h4>
               <Link to="/contact" className="btn">
                 Contact
               </Link>
